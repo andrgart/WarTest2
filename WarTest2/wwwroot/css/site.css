@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* -- HEADER -- */
+header {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/war_meme1.jpg");
+    background-size: 100px 100px;
+}
+
+.home-icon {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    outline: 2px solid white;
+}
+
+    .home-icon img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+.header_list {
+    display: flex;
+    list-style: none;
+}
+
+.header_list-item {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+.header_list-item:hover {
+    color: rgb(173, 8, 8);
+    transition: color 0.2s ease-in-out;
+}
